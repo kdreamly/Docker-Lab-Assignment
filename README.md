@@ -20,3 +20,8 @@ vim Dockerfile
 docker build -t my-node-app-multi .
 docker run -p 8080:80 my-node-app-multi
 curl http://localhost 
+
+3. Write a Bash Script
+Create a bash script that:
+Builds the Docker image.
+Runs the container on port 80
